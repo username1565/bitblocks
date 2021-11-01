@@ -36,6 +36,17 @@ namespace Checkpoints
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
         (  0, uint256("0xb19f7a9a051ad5a1ad5f214cdd71bdf1e93978934e653d32e31164d5b47b7bab"))
+        (  1, uint256("0x7a7b6ec671f4af413bc3a382a305ba091794621901fc4827268abb71c39e958a"))
+        (  100, uint256("0x6e9945ca952154697d58ee149b93a43f539e0caf9250f70b972d3723693e2613"))
+        (  500, uint256("0x52e7ccaf779190dcbc560615b54fa364c6afcb92c8cdf760e6e2189d5586485f"))
+        (  1000, uint256("0xa5f9dcb9abb1850250fb48760bb0fc85e7622164ad7ffceff8cb25ad02a74fc7"))
+        (  5000, uint256("0x6adb09c0847ff889e03a4e00d4d52adce5596189cf2589e570fa935b871c346b"))
+        (  10000, uint256("0x8c5fe90a360ed502013452fc06be1fc91b763decb893b4d6320f13a11e33039b"))
+        (  25000, uint256("0xc26dffad01f47d46ba3312e8844843ea8ac2c7068c7395b9ac4fa5107b1ee63f"))
+        (  50000, uint256("0xe6d8c9bc2d386dc246c64eefd8cd5aff9ae3ed13c6718e447b1dc79662d19b44"))
+        (  100000, uint256("0xbebfb5a5cfe6b35e9e83570d9736f0c057e9674d08bff99ab89537692eff9d34"))
+        (  250000, uint256("0x3e76e2cb07d21f8b5277f394f3925e4b2dc4f4683f4c1cf04768f5c1eeed8288"))
+        (  500000, uint256("0x36d79bba702a20cc9d308b65ba058190d0b1c10df50c0227ece416ec73a05473"))
         ;
     static const CCheckpointData data = {
         &mapCheckpoints,
